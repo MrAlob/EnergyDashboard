@@ -1,4 +1,19 @@
-# 🔋 Energy Dashboard - Python Learning Project
+# 🌟 Energy Dashboard - Python Learning Project
+
+<!-- Project Screenshots -->
+<div align="center">
+  <img src="docs/screen1.png" alt="Energy Dashboard Overview" width="800"/>
+  <br><br>
+  <img src="docs/screen2.png" alt="Interactive Charts Section" width="400"/>
+  <img src="docs/screen3.png" alt="Energy Saving Tips" width="400"/>
+</div>
+
+<div align="center">
+  <h1>🔋 Smart Energy Consumption Dashboard</h1>
+  <p><em>A comprehensive Python project for learning data visualization, web development, and energy management</em></p>
+</div>
+
+---
 
 > **Disclaimer:**  
 > This project is part of my Python learning journey. I am still learning Python, so you may encounter bugs or incomplete features. Feedback and suggestions are welcome!
