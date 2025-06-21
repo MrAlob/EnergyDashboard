@@ -1,0 +1,271 @@
+/* Custom CSS for Energy Dashboard */
+
+/* Main container styling */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Header styling */
+.main-header {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 0;
+}
+
+/* Metric cards */
+.metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #2a5298;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Button styling */
+.stButton > button {
+    background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(42, 82, 152, 0.3);
+}
+
+/* Metric styling */
+.stMetric {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e9ecef;
+    transition: all 0.2s ease;
+}
+
+.stMetric:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transform: translateY(-1px);
+}
+
+/* Chart containers */
+.js-plotly-plot .plotly {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.js-plotly-plot .plotly .modebar {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    padding: 0px 24px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    color: #495057;
+    font-weight: 500;
+    border: 1px solid #dee2e6;
+    transition: all 0.2s ease;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #e9ecef;
+    border-color: #2a5298;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+    color: white !important;
+    border-color: #2a5298;
+}
+
+/* Selectbox styling */
+.stSelectbox > div > div {
+    background-color: white;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
+}
+
+.stSelectbox > div > div:focus-within {
+    border-color: #2a5298;
+    box-shadow: 0 0 0 2px rgba(42, 82, 152, 0.2);
+}
+
+/* Info boxes */
+.stInfo {
+    background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+    border: 1px solid #86c7d7;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.stSuccess {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border: 1px solid #95d3a2;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.stWarning {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 1px solid #f4d03f;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* Tip cards */
+.tip-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.tip-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tip-card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tip-card p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    opacity: 0.95;
+}
+
+/* Expander styling */
+.streamlit-expanderHeader {
+    background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+.streamlit-expanderContent {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 1rem;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    color: #6c757d;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid #dee2e6;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    
+    .main-header p {
+        font-size: 1rem;
+    }
+    
+    .metric-card {
+        padding: 1rem;
+    }
+}
+
+/* Animation classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
